@@ -14,6 +14,8 @@
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+    "no-consecutive-blank-lines": false,
+    "import-blacklist": true, //允许使用import require导入具体的模块
+    "no-eval": true //不允许使用eval
   }
 }
